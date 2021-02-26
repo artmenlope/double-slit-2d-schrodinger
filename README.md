@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/master/LICENSE.md)
 ![Last Commit](https://img.shields.io/github/last-commit/artmenlope/double-slit-2d-schrodinger)
 
-_(README file under development)_
+_(README file and repository under development)_
 
 This repository contains Python 3 scripts for simulating the passage of a 2D Gaussian wave packet through a double slit. For this, the 2D Schrödinger equation is solved using the Crank-Nicolson numerical method.
 
