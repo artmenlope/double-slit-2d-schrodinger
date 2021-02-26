@@ -7,3 +7,5 @@ For further information on the Crank-Nicolson method and the creation of the scr
 <p align="center">
 <img src="https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-hardWalls-Schro2d-v1.gif" width="80%">
 </p>
+![](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-hardWalls-Schro2d-v1.gif) <br> `Hard walls double slit`|  ![](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-potBarrierV0-Schro2d-v1.gif) <br> `Potential barrier walls double slit`
+| :-------------: | :-------------: |
