@@ -47,7 +47,7 @@ and the double slit is parametrized as the following image shows:
 
 ## The results
 
-The two main scripts in this repository [doubleSlit_HW_CN.py](doubleSlit_HW_CN.py) and [...] are used to simulate the system in the case of a double slit with infinite potential barrier walls and finite potential barrier walls respectively. The following two animations show how the results look like:
+The two main scripts in this repository [doubleSlit_HW_CN.py](doubleSlit_HW_CN.py) and [doubleSlit_FPB_CN.py](doubleSlit_FPB_CN.py) are used to simulate the system in the case of a double slit with infinite potential barrier walls and finite potential barrier walls respectively. The following two animations show how the results look like:
 
 ![](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-hardWalls-Schro2d-v2(short).gif) <br> [Hard walls double slit](doubleSlit_HW_CN.py) |  ![](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-potBarrierV0-Schro2d-v1.gif) <br> Potential barrier walls double slit
 | :-------------: | :-------------: |
