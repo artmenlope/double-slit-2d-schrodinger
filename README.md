@@ -55,4 +55,4 @@ The two main scripts in this repository [doubleSlit_HW_CN.py](doubleSlit_HW_CN.p
 
 ## References
 
-[1]: Landau, R.H., José Páez Mejía Manuel & Bordeianu, C.C., 2015. _"Heat Flow via Time Stepping"_. In: _"Computational physics: problem solving with Python"_, 3rd ed. Weinheim: Wiley-VCH. 
+[1]: Landau, R.H., Páez Mejía, M.J. & Bordeianu, C.C., 2015. _"Heat Flow via Time Stepping"_. In: _"Computational physics: problem solving with Python"_, 3rd ed. Weinheim: Wiley-VCH. 
