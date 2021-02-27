@@ -9,5 +9,5 @@ This repository contains Python 3 scripts for simulating the passage of a 2D Gau
 
 For further information on the Crank-Nicolson method and the creation of the scripts for the simulations, please see [this blog post](https://artmenlope.github.io/solving-the-2d-schrodinger-equation-using-the-crank-nicolson-method/).
 
-![](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-hardWalls-Schro2d-v2(short).gif) <br> `Hard walls double slit`|  ![](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-potBarrierV0-Schro2d-v1.gif) <br> `Potential barrier walls double slit`
+![](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-hardWalls-Schro2d-v1.gif) <br> `Hard walls double slit`|  ![](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/main/animations/2Slit-potBarrierV0-Schro2d-v1.gif) <br> `Potential barrier walls double slit`
 | :-------------: | :-------------: |
