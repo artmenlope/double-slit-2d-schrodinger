@@ -42,7 +42,7 @@ The chosen initial (unnormalized) Gaussian wavepacket has the form
 and the double slit is parametrized as the following image shows:
 
 <p align="center">
-<img src="images/double_slit_drawing.png" width="40%">
+<img src="images/double_slit_drawing.png" width="50%">
 </p>
 
 ## The results
