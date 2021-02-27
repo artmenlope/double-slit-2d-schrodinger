@@ -3,8 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/artmenlope/double-slit-2d-schrodinger/blob/master/LICENSE.md)
 ![Last Commit](https://img.shields.io/github/last-commit/artmenlope/double-slit-2d-schrodinger)
 
-_(README file and repository under development)_
-
 A detailed description of the methods used for these simulations can be found at ["Solving the 2D Schrödinger equation using the Crank-Nicolson method"](https://artmenlope.github.io/solving-the-2d-schrodinger-equation-using-the-crank-nicolson-method/).
 
 ## Summary
