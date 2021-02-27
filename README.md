@@ -13,7 +13,7 @@ This repository contains Python 3 scripts for simulating the passage of a 2D Gau
 
 ## The method
 
-To simulate the passage of the 2D Gaussian wavepacket through the double slit, the discretized 2D schrödinger equation is solved at each time step using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](1). It calculates the time derivative with a central finite differences approximation [[1]](1).
+To simulate the passage of the 2D Gaussian wavepacket through the double slit, the discretized 2D schrödinger equation is solved at each time step using the Crank-Nicolson numerical method. It is important to note that this method is computationally expensive, but it is more precise and more stable than other low-order time-stepping methods [[1]](#References). It calculates the time derivative with a central finite differences approximation [[1]](#References).
 
 For further information on the Crank-Nicolson method, the mathematical details and the creation of the scripts for the simulations, please remember to check [this blog post](https://artmenlope.github.io/solving-the-2d-schrodinger-equation-using-the-crank-nicolson-method/).
 
