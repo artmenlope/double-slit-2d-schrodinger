@@ -122,7 +122,6 @@ psis = [] # To store the wave function at each time step.
 
 psi = psi0(x, y, x0, y0) # We initialise the wave function with the Gaussian.
 psi[0,:] = psi[-1,:] = psi[:,0] = psi[:,-1] = 0 # The wave function equals 0 at the edges of the simulation box (infinite potential well).
-psi = doubleSlit_interaction(psi, j0, j1, i0, i1, i2, i3) # Initial interaction with the double slit.
 psis.append(np.copy(psi)) # We store the wave function of this time step.
 
 # We solve the matrix system at each time step in order to obtain the wave function.
