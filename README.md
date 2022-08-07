@@ -19,23 +19,40 @@ For further information on the Crank-Nicolson method, the mathematical details a
 
 For this problem we consider the 2D time-dependent Schrödinger equation:
 
+$$
+i\dfrac{\partial \psi(x, y, t)}{\partial t} = - \nabla^2 \psi(x, y, t) + V(x, y, t) \psi(x, y, t)
+$$
+<!--
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=i%20%5Cfrac%7B%5Cpartial%20%5Cpsi(x%2Cy%2Ct)%7D%7B%5Cpartial%20t%7D%20%3D%20-%20%5Cnabla%5E2%20%5Cpsi(x%2Cy%2Ct)%20%2B%20V(x%2Cy%2Ct)%5C%2C%5Cpsi(x%2Cy%2Ct)%0A%0A">
 </p>
+-->
 
 which can be expanded as 
 
+$$
+i\dfrac{\partial \psi(x, y, t)}{\partial t} = - \left( \dfrac{\partial^2 \psi(x, y, t)}{\partial x^2} + \dfrac{\partial^2 \psi(x, y, t)}{\partial y^2}\right) + V(x, y, t) \psi(x, y, t)
+$$
+<!--
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=i%20%5Cfrac%7B%5Cpartial%20%5Cpsi(x%2Cy%2Ct)%7D%7B%5Cpartial%20t%7D%20%3D%20-%20%5Cleft(%20%5Cfrac%7B%5Cpartial%5E2%20%5Cpsi(x%2Cy%2Ct)%7D%7B%5Cpartial%20x%5E2%7D%20%2B%20%5Cfrac%7B%5Cpartial%5E2%20%5Cpsi(x%2Cy%2Ct)%7D%7B%5Cpartial%20y%5E2%7D%20%5Cright)%20%2B%20V(x%2Cy%2Ct)%5C%2C%5Cpsi(x%2Cy%2Ct)%0A">
 </p>
+<img src="https://render.githubusercontent.com/render/math?math=%5Chbar%2F2m%20%3D%201%0A">
+<img src="https://render.githubusercontent.com/render/math?math=%5Cpsi%0A">
+-->
 
-Here, for simplicity we have considered that <img src="https://render.githubusercontent.com/render/math?math=%5Chbar%2F2m%20%3D%201%0A">. Then, to solve the problem, we discretize the simulation space and, consequently, the particle's wave function <img src="https://render.githubusercontent.com/render/math?math=%5Cpsi%0A"> (our Gaussian wavepacket) and the Scrödinger equation.
+Here, for simplicity we have considered that $\hbar/2m=1$. Then, to solve the problem, we discretize the simulation space and, consequently, the particle's wave function $\psi$ (our Gaussian wavepacket) and the Scrödinger equation.
 
 The chosen initial (unnormalized) Gaussian wavepacket has the form 
 
+$$
+\psi(x, y, t=0) = e^{-\frac{1}{2\sigma^2}\left[(x-x_0)^2+(y-y_0)^2\right]}\cdot e^{-ik(x-x_0)}
+$$
+<!--
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=%5Cpsi(x%2Cy%2Ct%3D0)%20%3D%20e%5E%7B-%5Cfrac%7B1%7D%7B2%5Csigma%5E2%7D%5Cleft%5B(x-x_0)%5E2%2B(y-y_0)%5E2%5Cright%5D%7D%20%5Ccdot%20e%5E%7B-ik(x-x_0)%7D%20%0A">
 </p>
+-->
 
 and the double slit is parametrized as the following image shows:
 
