@@ -57,7 +57,7 @@ $$
 and the double slit is parametrized as the following image shows:
 
 <p align="center">
-<img src="images/double_slit_drawing.svg" width="30%">
+<img src="images/double_slit_drawing.svg" width="40%">
 </p>
 
 ## The results
